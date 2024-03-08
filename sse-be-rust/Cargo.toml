@@ -1,0 +1,16 @@
+[package]
+name = "sse-be"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+env_logger = "0.9"
+axum =  {version = "0.4.3", features = ["headers"] }
+tokio = { version = "1.0", features = ["full"] }
+tower-http = { version = "0.2.0", features = ["fs", "trace"] }
+futures = "0.3"
+tokio-stream = "0.1"
+headers = "0.3"

@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kangc/v-md-editor": "^2.3.18",
+    "@vueuse/core": "^10.9.0",
     "axios": "^1.6.7",
+    "prismjs": "^1.29.0",
     "vue": "^3.4.19"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.54.6",
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.1.4"
   }
